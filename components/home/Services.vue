@@ -3,12 +3,11 @@
     <div class="max-w-6xl mx-auto px-4 text-center">
       <!-- Main Header -->
       <h2 class="text-3xl md:text-4xl font-extrabold mb-8 text-bright-orange">
-        Our Services
+        Reliable Repairs for All Major Appliances
       </h2>
       <!-- Introductory Paragraph -->
       <p class="text-lg md:text-xl mb-10 text-deep-blue">
-        We repair a wide range of household appliances. Whatever the issue, our
-        technicians are here to help!
+        At EZ Fix Service, we provide expert appliance repair solutions to keep your household running smoothly. Our skilled technicians specialize in refrigerator repairs, dishwasher servicing, washing machine repairs, dryer fixes, and more. Whether you need oven and stove repair or cooktop servicing, we ensure fast and reliable results for all major appliance brands.
       </p>
 
       <!-- Services Grid -->

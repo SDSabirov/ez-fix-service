@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-w-screen">
     <Navbar />
     <ServicesIntro />
     <ServicesBrands/>

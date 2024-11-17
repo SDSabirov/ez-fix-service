@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16 bg-gray-50">
+    <section class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
         
         <!-- Service Overview Introduction -->
@@ -15,7 +15,7 @@
           
           <!-- Refrigerator Repair -->
           <div class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-            <img src="/assets/images/hero.jpg" alt="Refrigerator Repair" class="w-20 h-20 mb-4">
+            <img src="/assets/images/refrigerator.png" alt="Refrigerator Repair" class="w-full h-full object-cover">
             <h2 class="text-xl font-semibold text-gray-800">Refrigerator Repair</h2>
             <p class="text-gray-600 mt-2">
               Keep your refrigerator running efficiently with our expert repair services.
@@ -27,7 +27,7 @@
   
           <!-- Washer Repair -->
           <div class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-            <img src="/assets/images/hero1.jpg" alt="Washer Repair" class="w-20 h-20 mb-4">
+            <img src="/assets/images/washer.jpg" alt="Washer Repair" class="w-full h-full object-cover">
             <h2 class="text-xl font-semibold text-gray-800">Washer Repair</h2>
             <p class="text-gray-600 mt-2">
               Restore your washer's performance with our professional repair services.
@@ -39,7 +39,7 @@
   
           <!-- Oven Repair -->
           <div class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-            <img src="/assets/images/hero.jpg" alt="Oven Repair" class="w-20 h-20 mb-4">
+            <img src="/assets/images/hero.jpg" alt="Oven Repair" class="w-full h-full object-cover">
             <h2 class="text-xl font-semibold text-gray-800">Oven & Stove Repair</h2>
             <p class="text-gray-600 mt-2">
               Ensure perfect cooking results with our reliable oven and stove repair.
@@ -51,7 +51,7 @@
   
           <!-- Dryer Repair -->
           <div class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-            <img src="/assets/images/hero1.jpg" alt="Dryer Repair" class="w-20 h-20 mb-4">
+            <img src="/assets/images/hero1.jpg" alt="Dryer Repair" class="w-full h-full object-cover">
             <h2 class="text-xl font-semibold text-gray-800">Dryer Repair</h2>
             <p class="text-gray-600 mt-2">
               Get your dryer back in working condition quickly with our expert repairs.
@@ -63,7 +63,7 @@
   
           <!-- Dishwasher Repair -->
           <div class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-            <img src="/assets/images/hero.jpg" alt="Dishwasher Repair" class="w-20 h-20 mb-4">
+            <img src="/assets/images/hero.jpg" alt="Dishwasher Repair" class="w-full h-full object-cover">
             <h2 class="text-xl font-semibold text-gray-800">Dishwasher Repair</h2>
             <p class="text-gray-600 mt-2">
               Keep your kitchen running smoothly with our dishwasher repair services.
@@ -75,7 +75,7 @@
   
           <!-- Microwave Repair -->
           <div class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-            <img src="/assets/images/hero1.jpg" alt="Microwave Repair" class="w-20 h-20 mb-4">
+            <img src="/assets/images/hero1.jpg" alt="Microwave Repair" class="w-full h-full object-cover">
             <h2 class="text-xl font-semibold text-gray-800">Microwave Repair</h2>
             <p class="text-gray-600 mt-2">
               Quick and efficient repairs for all microwave issues.

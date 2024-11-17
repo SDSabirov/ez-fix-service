@@ -1,28 +1,29 @@
 <template>
   <nav
-    class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 max-w-screen"
   >
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
-      <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <NuxtLink to="/" class="flex items-center space-x-1 md:space-x-3 rtl:space-x-reverse">
         <img src="/logo.svg" class="h-8" alt="EZ Fix Service Logo" />
         <span
-          class="self-center text-2xl font-semibold whitespace-nowrap text-bright-orange"
-          >EZ </span
-        >
+          class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap text-bright-orange"
+          >EZ
+        </span>
         <span
-          class="self-center text-2xl font-semibold whitespace-nowrap text-deep-blue"
-          >Fix Service</span>
+          class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap text-deep-blue"
+          >Fix Service</span
+        >
       </NuxtLink>
 
       <!-- Contact Button -->
       <div class="flex md:order-2 md:space-x-0 rtl:space-x-reverse">
         <button
           type="button"
-          class="text-white bg-bright-orange hover:bg-deep-blue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center "
+          class="text-white bg-bright-orange hover:bg-deep-blue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
         >
-          <div class="w-full h-full flex space-x-2 items-center mr-2">
+          <div class="w-full h-full flex space-x-1 md:space-x-2 items-center md:mr-2">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -38,8 +39,32 @@
                 />
               </svg>
             </div>
-            <p class="">+1(444)77-77-77</p>
+            <span class="">+1(444)77-77-77</span>
           </div>
+        </button>
+        <button
+          data-collapse-toggle="navbar-sticky"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-bright-orange rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-sticky"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
         </button>
       </div>
 
@@ -54,44 +79,68 @@
           <li>
             <NuxtLink
               to="/"
-              :class="{'text-deep-blue font-bold': route.path === '/', 'text-bright-orange': route.path !== '/'}"
+              :class="{
+                'text-deep-blue font-bold': route.path === '/',
+                'text-bright-orange': route.path !== '/',
+              }"
               class="block py-2 px-3 rounded hover:text-deep-blue md:p-0"
-            >Home</NuxtLink>
+              >Home</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink
               to="/about"
-              :class="{'text-deep-blue font-bold': route.path === '/about', 'text-bright-orange': route.path !== '/about'}"
+              :class="{
+                'text-deep-blue font-bold': route.path === '/about',
+                'text-bright-orange': route.path !== '/about',
+              }"
               class="block py-2 px-3 rounded hover:text-deep-blue md:p-0"
-            >About</NuxtLink>
+              >About</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink
               to="/services"
-              :class="{'text-deep-blue font-bold': route.path === '/services', 'text-bright-orange': route.path !== '/services'}"
+              :class="{
+                'text-deep-blue font-bold': route.path === '/services',
+                'text-bright-orange': route.path !== '/services',
+              }"
               class="block py-2 px-3 rounded hover:text-deep-blue md:p-0"
-            >Services</NuxtLink>
+              >Services</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink
               to="/areas"
-              :class="{'text-deep-blue font-bold': route.path === '/areas', 'text-bright-orange': route.path !== '/areas'}"
+              :class="{
+                'text-deep-blue font-bold': route.path === '/areas',
+                'text-bright-orange': route.path !== '/areas',
+              }"
               class="block py-2 px-3 rounded hover:text-deep-blue md:p-0"
-            >Areas</NuxtLink>
+              >Areas</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink
               to="/blogs"
-              :class="{'text-deep-blue font-bold': route.path === '/blogs', 'text-bright-orange': route.path !== '/blogs'}"
+              :class="{
+                'text-deep-blue font-bold': route.path === '/blogs',
+                'text-bright-orange': route.path !== '/blogs',
+              }"
               class="block py-2 px-3 rounded hover:text-deep-blue md:p-0"
-            >Blogs</NuxtLink>
+              >Blogs</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink
               to="/contact"
-              :class="{'text-deep-blue font-bold': route.path === '/contact', 'text-bright-orange': route.path !== '/contact'}"
+              :class="{
+                'text-deep-blue font-bold': route.path === '/contact',
+                'text-bright-orange': route.path !== '/contact',
+              }"
               class="block py-2 px-3 rounded hover:text-deep-blue md:p-0"
-            >Contact</NuxtLink>
+              >Contact</NuxtLink
+            >
           </li>
         </ul>
       </div>
@@ -100,7 +149,7 @@
 </template>
 
 <script setup>
-import { useRoute } from 'vue-router';
+import { useRoute } from "vue-router";
 
 const route = useRoute();
 </script>

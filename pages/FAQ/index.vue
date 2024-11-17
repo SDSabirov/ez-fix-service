@@ -1,10 +1,7 @@
 <template>
     <div>
-        <Navbar/>
-    <HomeHero />
-    <HomeServiceHighlights/>
-    <HomeServices />
-    <HomeTestimonials />
+    <Navbar/>
+    <FAQBody/>
     <Footer />
     
     </div>

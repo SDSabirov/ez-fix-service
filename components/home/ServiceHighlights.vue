@@ -129,7 +129,7 @@
           Serving Hundreds of Local Homes
         </h3>
         <p class="text-xl font-semibold text-deep-blue">
-            With a track record of quality, we’ve successfully serviced over 100 homes in your area.
+          Looking for appliance repair near me? We proudly serve San Francisco, San Mateo, Redwood City, Palo Alto, Sunnyvale, and nearby Bay Area locations. Whether you're in Mountain View, Menlo Park, Burlingame, or Los Altos, our expert technicians are just a call away. Schedule your service today!
         </p>
       </div>
       <div class="flex w-full items-center justify-center">
@@ -137,7 +137,7 @@
           
           class="bg-bright-orange hover:bg-deep-blue text-white font-semibold py-3 px-6 rounded-md text-lg transition duration-300 cursor-pointer"
         >
-          Schedule Your Service Today
+          Call Now for Same-Day Appliance Repairs Near You!
         </NuxtLink>
       </div>
     </div>
