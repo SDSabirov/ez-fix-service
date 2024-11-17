@@ -126,7 +126,7 @@
       </div>
       <div class="flex flex-col py-6 my-6 ">
         <h3 class="text-2xl md:text-4xl font-bold mb-8 text-deep-blue mb-6">
-          Serving Hundreds of Local Homes
+          Serving Thousands of Local Homes
         </h3>
         <p class="text-xl font-semibold text-deep-blue">
           Looking for appliance repair near me? We proudly serve San Francisco, San Mateo, Redwood City, Palo Alto, Sunnyvale, and nearby Bay Area locations. Whether you're in Mountain View, Menlo Park, Burlingame, or Los Altos, our expert technicians are just a call away. Schedule your service today!
